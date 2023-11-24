@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mnemonic Odyssey </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <div class="control-buttons">
+        <div class="span">
+            <div class="startgame">Start Game</div> 
+            <div class="gamelevel">Game Level</div>
+            <p class="test"> </p>
+        </div> 
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+            <span id="timer"> Time Left</span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+        <div class="score">
+           Score: <span>0</span>
+           
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" imagename="a">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/a.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" imagename="b">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/b.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" imagename="c">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/c.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" imagename="d">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/d.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" imagename="a">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/a.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" imagename="b">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/b.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" imagename="c">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/c.png" alt="">
+            </div>
+        </div> 
+        <div class="game-block" imagename="d">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="imgs/d.png" alt="">
+            </div>
+        </div> 
+    </div>
+    <!-- Adding Modal Box When Complete The Game -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>print message here</p>
+        </div>
+    </div>
+    <!-- <audio id="success" src="imgs/success.m4a" preload="auto"></audio>
+    <audio id="fail" src="imgs/Fail.mp4" preload="auto"></audio> -->
+    <audio id="success" src="assets/Success.mp3" preload="auto"></audio>
+    <audio id="success1" src="assets/male_says_success.mp3" preload="auto"></audio>
+    <audio id="fail" src="assets/Fail.mp3" preload="auto"></audio>
+    <audio id="FinalSuccess1" src="assets/FinalSuccess1.mp3" preload="auto"></audio>
+    <audio id="FinalSuccess2" src="assets/FinalSuccess2.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

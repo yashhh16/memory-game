@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+<meta charset="UTF-8">   
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0">   
+<title>Memory Game</title>  
+<link rel="stylesheet" href="style.css">
+</head>
+<body>  
+<div id="instructions-page">
+        <h2>Memory Game Instructions</h2>
+        <p>The goal of this game is to match all pairs of cards within the given time limit.</p>
+        <ol>
+            <li>Click on two cards at a time to reveal their images.</li>
+            <li>Matching cards will remain face-up, while mismatched cards will flip back.</li>
+            <li>Keep track of the cards you've seen to find matches more quickly.</li>
+            <li>The timer will count down from 120 seconds. If you don't match all cards before time runs out, you lose.</li>
+        </ol>
+        <input type="button" id="game" value="Start Game" onclick="redirectToDetails()">
+    </form>
+    </div>
+    <script> 
+     function redirectToDetails() {
+        // Redirect to the details of the website page
+        window.location.href = "index.html";
+      }
+      </script>
+
+     <!-- <a href="index.html" style="display: none;" id="start-main-game-link"></a>  -->
+    <script src="script.js"></script>
+</body>
+</html>

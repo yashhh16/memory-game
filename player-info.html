@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game - Player Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="./imgs/icons-for-memory-game-theme-upscaled.png">
+    <div class="container">
+        <h2>Memory Game</h2>
+
+        <form id="player-info-form">
+            <label for="player-name">Enter your name:</label>
+            <input type="text" id="player-name" name="playerName" required>
+            <br>
+            <label for="player-nickname">Enter your nickname:</label>
+            <input type="text" id="player-nickname" name="playerNickname" required>
+            <br>
+           <input type="button" id="game" value="Start Game" onclick="redirectToDetails()">
+        </form>
+        <script>
+        function redirectToDetails() {
+            // Redirect to the details of the website page
+            window.location.href = "instrructions.html";
+          }
+        </script>
+        <!-- <a href="index.html" style="display: none;" id="start-game-link"></a>   -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
